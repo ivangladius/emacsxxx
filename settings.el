@@ -5,6 +5,13 @@
          (split-string-and-unquote path ":")
          exec-path)))
 
+
+(use-package almost-mono-themes
+  :ensure t
+  :config
+  (load-theme 'almost-mono-cream t))
+
+
 (set-face-attribute 'default nil
                     :family "JetBrains Mono"
                     :height 120

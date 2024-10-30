@@ -1,6 +1,6 @@
 ;; Enable vertico
 
-(require 'consult)
+;(require 'consult)
 (use-package vertico
   :ensure t
   :init
