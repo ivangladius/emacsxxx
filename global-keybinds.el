@@ -35,6 +35,11 @@
 
 (global-set-key (kbd "M-w") #'global-window-keys/body)
 
+(global-set-key (kbd "M-0") #'scroll-up-10)
+(global-set-key (kbd "M-9") #'scroll-down-10)
+
+
+
 ;;(global-set-key (kbd "M-") 'last-buffer)
 
 (global-set-key (kbd "C-M-k") #'(lambda ()
@@ -44,7 +49,5 @@
 (use-package bind-key
   :ensure t)
 
-(bind-key "M-," #'scroll-down-10)
-(bind-key "M-." #'scroll-up-10)
   
 

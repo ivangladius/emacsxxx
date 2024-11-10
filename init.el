@@ -30,6 +30,7 @@
 (load "~/.emacs.d/winner.el")
 (load "~/.emacs.d/treemacs.el")
 (load "~/.emacs.d/sly.el")
+(load "~/.emacs.d/avy.el")
 
 
 
@@ -46,7 +47,7 @@
  '(custom-safe-themes
    '("ffba0482d3548c9494e84c1324d527f73ea4e43fff8dfd0e48faa8fc6d5c2bc7" "d0fd069415ef23ccc21ccb0e54d93bdbb996a6cce48ffce7f810826bb243502c" default))
  '(package-selected-packages
-   '(almost-mono-themes sly all-the-icons consult vertico-buffer vertico hydra counsel company)))
+   '(modus-vivendi almost-mono-themes sly all-the-icons consult vertico-buffer vertico hydra counsel company)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

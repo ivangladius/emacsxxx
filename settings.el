@@ -6,15 +6,16 @@
          exec-path)))
 
 
-(use-package almost-mono-themes
-  :ensure t
-  :config
-  (load-theme 'almost-mono-cream t))
+;; (use-package almost-mono-themes
+;;   :ensure t
+;;   :config
+;;   (load-theme 'almost-mono-cream t))
 
+(load-theme 'modus-vivendi t)
 
 (set-face-attribute 'default nil
                     :family "JetBrains Mono"
-                    :height 100
+                    :height 160
                     :weight 'normal
                     :width 'normal)
 
